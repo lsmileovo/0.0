@@ -1,11 +1,17 @@
 <template>
-  <div>404 NotFound</div>
+    <ContentField>
+        404 Not Found
+    </ContentField>
 </template>
 
 <script>
+import ContentField from '../../components/ContentField.vue'
+
 export default {
-  setup() {},
-};
+    components: {
+        ContentField
+    }
+}
 </script>
 
 <style scoped>

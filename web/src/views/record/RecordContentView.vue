@@ -1,11 +1,17 @@
 <template>
-  <div>record content view</div>
+    <PlayGround />
 </template>
 
 <script>
+import PlayGround from '../../components/PlayGround.vue'
+
 export default {
-  setup() {},
-};
+    components: {
+        PlayGround,
+    },
+    setup() {
+    }
+}
 </script>
 
 <style scoped>
